@@ -1,8 +1,8 @@
 <?php
 
-namespace Roland\StateMachine\Traits;
+namespace SimonRoland\StateMachine\Traits;
 
-use Roland\StateMachine\Exceptions\InvalidStateTransitionException;
+use SimonRoland\StateMachine\Exceptions\InvalidStateTransitionException;
 
 trait HasStateMachine
 {

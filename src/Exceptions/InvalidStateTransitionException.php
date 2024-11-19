@@ -1,6 +1,6 @@
 <?php
 
-namespace Roland\StateMachine\Exceptions;
+namespace SimonRoland\StateMachine\Exceptions;
 
 use Exception;
 

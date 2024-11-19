@@ -7,7 +7,7 @@ A Laravel trait for managing state transitions.
 Install the package via composer:
 
 ```bash
-composer require roland/state-machine
+composer require simon-roland/state-machine
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ To use the HasStateMachine trait, include it in your Eloquent model and implemen
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use Roland\StateMachine\Traits\HasStateMachine;
+use SimonRoland\StateMachine\Traits\HasStateMachine;
 
 class Order extends Model
 {
@@ -104,7 +104,7 @@ enum OrderState: int
 ```php
 use App\Enums\OrderState;
 use Illuminate\Database\Eloquent\Model;
-use Roland\StateMachine\Traits\HasStateMachine;
+use SimonRoland\StateMachine\Traits\HasStateMachine;
 
 class Order extends Model
 {

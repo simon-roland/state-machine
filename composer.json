@@ -1,5 +1,5 @@
 {
-    "name": "roland/state-machine",
+    "name": "simon-roland/state-machine",
     "description": "A Laravel state machine trait for managing state transitions.",
     "type": "library",
     "require": {
@@ -9,7 +9,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Roland\\StateMachine\\": "src/"
+            "SimonRoland\\StateMachine\\": "src/"
         }
     },
     "authors": [
